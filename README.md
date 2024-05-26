@@ -15,6 +15,6 @@ Extensive simulations are conducted to demonstrate the performance of cGraphGANF
 The results show that cGraphGANFed can (a) produce molecules with significantly higher values of the specified molecular metric in comparison to other metrics, or (b) generate the molecules that exhibit high values across the majority of molecular metrics, which have dependent relationships (e.g., QED, Validity, and LogP).
 
 The PDF to the paper can be found here:
-[cGraphGANFed](Conditional GraphGANFed Optimizing Graph-Structured Molecule Generation in Federated Generative Adversarial Networks.pdf)
+[cGraphGANFed](Paper/cGraphGANFed.pdf)
 
 [1] D. Manu, J. Yao, W. Liu and X. Sun, "GraphGANFed: A Federated Generative Framework for Graph-Structured Molecules Towards Efficient Drug Discovery," in IEEE/ACM Transactions on Computational Biology and Bioinformatics, vol. 21, no. 2, pp. 240-253, March-April 2024, doi: 10.1109/TCBB.2024.3349990.
