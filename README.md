@@ -6,37 +6,12 @@ The generator and discriminator architectures in cGraphGANFed are similar to tha
 
 ![gen_loss.png](gen_loss.png)
 
+The critic network is also implemented as relational-GCN as the discriminator and predicts the metric values of the input molecule. The critic network is trained to minimize the MSE loss between the predicted and ground truth metric values, i.e., 
 
+![crit_loss.png](crit_loss.png)
 
+Extensive simulations are conducted to demonstrate the performance of cGraphGANFed under the following two scenarios, (a) optimization of a specific molecular metric, and (b) optimization of all molecular metrics simultaneously. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+The results show that cGraphGANFed can (a) produce molecules with significantly higher values of the specified molecular metric in comparison to other metrics, or (b) generate the molecules that exhibit high values across the majority of molecular metrics, which have dependent relationships (e.g., QED, Validity, and LogP).
 
 [1] D. Manu, J. Yao, W. Liu and X. Sun, "GraphGANFed: A Federated Generative Framework for Graph-Structured Molecules Towards Efficient Drug Discovery," in IEEE/ACM Transactions on Computational Biology and Bioinformatics, vol. 21, no. 2, pp. 240-253, March-April 2024, doi: 10.1109/TCBB.2024.3349990.
