@@ -4,7 +4,8 @@ In this project, we propose the conditonal GraphGANFed (cGraphGANFed) framework 
 
 The generator and discriminator architectures in cGraphGANFed are similar to that in GraphGANFed, however the loss function of the generator is different from that in GraphGAN. In cGraphGANFed, the generator's loss function is the weighted combination of the Wasserstein loss and predicted user-defined metric values as given below:
 
-![FL_Seismic.jpg](FL_Sesmic.jpg)
+![.jpg](FL_Sesmic.jpg)
+
 
 
 
