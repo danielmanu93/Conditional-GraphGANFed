@@ -1,4 +1,4 @@
-# Conditional-GraphGANFed:Optimizing Graph-Structured Molecule Generation in Federated Generative Adversarial Networks
+# Conditional-GraphGANFed: Optimizing Graph-Structured Molecule Generation in Federated Generative Adversarial Networks
 
 In this project, we propose the conditonal GraphGANFed (cGraphGANFed) framework which is a novel extension of our original GraphGANFed [1]. cGraphGANFed integrates the critic network to evaluate the generated molecules using user-defined metric(s). The evaluation results from both the critic network and discriminator are integrated into the loss function of the generator, thus guiding it to generate novel molecules that maintain similar chemical properties to real ones while optimizing user-defined metrics.
 
